@@ -7,58 +7,82 @@
     <title>Countdown Timer</title>
     <style>
         body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            height: 100vh;
-            margin: 0;
-            background: -webkit-linear-gradient(left, #1d64f4, #fa4299);
-            background: linear-gradient(to right, #1d64f4, #fa4299);
-        }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #A1FFCE, #FAFFD1);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333; /* Adjusted text color for better contrast */
+}
 
-        .timer-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-top: 50px;
-            /* Adjust as needed */
-        }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
 
-        .timer {
-            text-align: center;
-            border: 5px solid #fff;
-            /* Example border style, adjust as needed */
-            border-radius: 50%;
-            /* Creates a circular shape */
-            padding: 20px;
-            /* Adjust as needed */
-            background-color: #fff;
-            /* Set background color */
-        }
+.timer {
+    border: 10px solid #333; /* Adjusted border color for better contrast */
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #333; /* Adjusted background color for better contrast */
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
-        .display {
-            font-size: 2em;
-        }
+.display {
+    font-size: 3em;
+    color: #A1FFCE;
+    font-weight: bold;
+}
 
-        button {
-            font-size: 1em;
-            margin: 5px;
-        }
+input {
+    font-size: 1em;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FAFFD1;
+    width: 200px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333; /* Adjusted text color for better contrast */
+}
 
-        label {
-            font-size: 1em;
-            margin-bottom: 5px;
-            color: #fff;
-            /* Set text color */
-        }
+button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #A1FFCE;
+    color: #333; /* Adjusted text color for better contrast */
+    transition: background-color 0.3s ease;
+    font-family: 'Helvetica Neue', sans-serif;
+}
 
-        input {
-            font-size: 1em;
-            padding: 5px;
-            margin-bottom: 10px;
-        }
+button:hover {
+    background-color: #7EDF99; /* Adjusted hover color for better contrast */
+}
+
+
+button:hover {
+    background-color: #182848;
+}
+*{
+  font-family:'arial'
+}
+
+
+
+
+
     </style>
 </head>
 
